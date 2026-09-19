@@ -64,7 +64,10 @@ The server uses Java `ServerSocket` and `Socket` for TCP communication. A separa
                       Client 1    Client 2    Client 3
                       Thread      Thread      Thread
 
-Project Structure
+
+
+```
+## Project Structure
 
 Concurrent-FTP-Server/
 │
@@ -74,7 +77,7 @@ Concurrent-FTP-Server/
 └── .gitignore
 
 
-* How to Run *
+## How to Run 
 
 1. Compile the Server
 Open a terminal in the project directory and run:
@@ -100,6 +103,6 @@ Additional clients can be started from separate terminals.
 Each connected client is handled by a separate thread on the server.
 
 
-Author
+## Author
 
 Tarannum Jakirhusen Shaikh
